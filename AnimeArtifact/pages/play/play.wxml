@@ -1,0 +1,10 @@
+<!--pages/play/play.wxml-->
+
+<view>
+  <video src="{{url}}" autoplay="true"></video>
+</view>
+
+
+<view>
+  <text>全屏观看体验更佳</text>
+</view>

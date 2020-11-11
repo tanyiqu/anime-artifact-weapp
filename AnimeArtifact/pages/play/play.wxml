@@ -1,14 +1,11 @@
 <!--pages/play/play.wxml-->
 <view class="root">
+  <!-- 播放器组件 -->
   <view>
     <video id="myVideo" class="video" src="{{url}}"></video>
   </view>
 
-
-  <!-- <view>
-    <text>全屏观看体验更佳</text>
-  </view> -->
-
+  <!-- 调倍速按钮 -->
   <view class="rate-action">
     <view bindtap="changeRate" data-rate='0.5'>0.5X</view>
     <view bindtap="changeRate" data-rate='0.75'>0.75X</view>
@@ -16,6 +13,25 @@
     <view bindtap="changeRate" data-rate='1.25'>1.25X</view>
     <view bindtap="changeRate" data-rate='1.5'>1.5X</view>
     <view bindtap="changeRate" data-rate='2.0'>2.0X</view>
+  </view>
+
+  <!-- 标题 -->
+  <view class="title">
+    <text class="text-xl text-bold">正在播放</text>
+  </view>
+
+
+  <!-- 集数按钮 -->
+  <view class="episodes">
+    <view class="episode">第一集</view>
+    <view class="episode">第二集</view>
+    <view class="episode">第三集</view>
+    <view class="episode">第一集</view>
+    <view class="episode">第二集</view>
+    <view class="episode">第三集</view>
+    <view class="episode">第一集</view>
+    <view class="episode">第二集</view>
+
   </view>
 
 </view>

@@ -20,17 +20,40 @@ Page {
   flex: 1;
   height: 75rpx;
   margin: 0 1rpx;
-
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 28rpx;
   border: solid 1px #000;
-
   background: #fff;
-
 }
 
 .rate-action view:active {
   background: #f00;
+}
+
+.title {
+  margin: 10rpx;
+}
+
+/* 集数按钮 */
+.episodes {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+
+.episodes .episode {
+  width: 31.3%;
+  height: 70rpx;
+  margin: 5rpx 1%;
+
+  /* background: pink; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #fff;
+  border: solid 1px #000;
 }

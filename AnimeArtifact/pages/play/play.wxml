@@ -1,7 +1,7 @@
 <!--pages/play/play.wxml-->
 
 <view>
-  <video src="{{url}}" autoplay="true"></video>
+  <video src="{{url}}"></video>
 </view>
 
 

@@ -1,4 +1,7 @@
 // pages/play/play.js
+
+let ToastUtil = require('../../utils/ToastUtil');
+
 Page({
 
   /**
@@ -6,6 +9,14 @@ Page({
    */
   data: {
 
+  },
+
+  // 调整视频倍速
+  changeRate(e) {
+    let rate = e.currentTarget.dataset.rate;
+    this.videoContext.playbackRate(Number(rate));
+    // ToastUtil.toast('倍速：' + rate);
+    ToastUtil.error('Cg');
   },
 
   /**
@@ -27,7 +38,7 @@ Page({
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-
+    this.videoContext = wx.createVideoContext('myVideo');
   },
 
   /**

@@ -1,2 +1,18 @@
 <!--pages/index/index.wxml-->
-<text>pages/index/index.wxml</text>
+<view class="root">
+
+
+  <view>
+    <text class="version"> {{version_name}} </text>
+  </view>
+
+
+
+  <view class="search-bar">
+    <input class="input" type="text" placeholder="请搜索影片..." bindconfirm="search" />
+    <text class="btn-search" bindtap="search">搜索</text>
+  </view>
+
+
+
+</view>

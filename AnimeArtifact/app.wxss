@@ -2,6 +2,16 @@
 @import "main.wxss";
 @import "icon.wxss";
 
+Page {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+
+  /* 定义一些变量 */
+  --bg1: url(https://s3.ax1x.com/2020/11/12/BxEzwt.png);
+
+
+}
 
 .root {
   width: 100%;

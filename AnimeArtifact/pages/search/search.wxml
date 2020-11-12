@@ -1,0 +1,15 @@
+<!--pages/search/search.wxml-->
+<view class="root">
+
+  <!-- 顶部搜索 -->
+  <view class="cu-bar search bg-white search-bar">
+    <view class="search-form round">
+      <text class="cuIcon-search"></text>
+      <input type="text" placeholder="搜索影片" confirm-type="search"></input>
+    </view>
+    <view class="action btn-search">
+      <button class="cu-btn bg-blue shadow-blur round">搜索</button>
+    </view>
+  </view>
+
+</view>

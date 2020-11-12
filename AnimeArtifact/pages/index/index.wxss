@@ -1,1 +1,57 @@
 /* pages/index/index.wxss */
+
+Page {
+  background: var(--bg1);
+  background-size: cover;
+  position: relative;
+}
+
+.root {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  /* 里面居中 */
+  display: flex;
+  justify-content: center;
+}
+
+.version {
+  position: absolute;
+  top: 25rpx;
+  left: 25rpx;
+  padding: 2rpx 12rpx;
+  font-size: 50rpx;
+  background: rgba(0, 0, 0, .38);
+  color: #fff;
+}
+
+.search-bar {
+  width: 80%;
+  height: 80rpx;
+  margin-top: 55%;
+  display: flex;
+  font-size: 30rpx;
+}
+
+
+.search-bar .input {
+  flex: 7.6;
+  height: 100%;
+  padding-left: 20rpx;
+  border-top-left-radius: 28rpx;
+  border-bottom-left-radius: 28rpx;
+  background: rgba(255, 255, 255, .7);
+}
+
+.search-bar .btn-search {
+  flex: 2.4;
+  text-align: center;
+  line-height: 80rpx;
+  border-top-right-radius: 28rpx;
+  border-bottom-right-radius: 28rpx;
+  background: rgb(12, 129, 254);
+}
+
+.search-bar .btn-search:active {
+  background: blue;
+}

@@ -75,6 +75,13 @@
           "pathName": "pages/play/play",
           "query": "url=https://mei.huazuida.com/20191220/19588_51b84e32/index.m3u8",
           "scene": null
+        },
+        {
+          "id": -1,
+          "name": "search",
+          "pathName": "pages/search/search",
+          "query": "wd=你的名字",
+          "scene": null
         }
       ]
     }

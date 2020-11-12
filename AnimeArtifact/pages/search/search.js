@@ -1,5 +1,5 @@
-// pages/index/index.js
-let app = getApp();
+// pages/search/search.js
+
 let ToastUtil = require('../../utils/ToastUtil');
 
 Page({
@@ -8,23 +8,15 @@ Page({
    * 页面的初始数据
    */
   data: {
-    version_name: app.globalData.version_name
-  },
 
-
-  // 搜索
-  search(e) {
-    // 跳转页面
-    wx.navigateTo({
-      url: '../search/search?wd=' + '你的名字',
-    })
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    let wd = options.wd;
+    ToastUtil.toast(wd);
   },
 
   /**
